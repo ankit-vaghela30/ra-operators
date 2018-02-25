@@ -5,7 +5,15 @@ This project is actually a series of projects done as part of Database Managemen
 five students implemented fundamental Database operators like select, project, join, union and minus. Later, Indexing was also
 added with data structures like Bplus tree and Linear Hashmap. 
 
+Note: Some of the files were provided by course instructor.
+
 I have worked exclusively on join operation and indexing on Linear Hashmap data structure.
+
+## Description of project
+
+1. Finish the implementation the 5 RA Operators that are partially implemented in Table.java. Store tuples in an ArrayList. Use    MapType.NO_MAP for the index type (no indexing).
+
+2. Use indices (TreeMap (in Java), LinHashMap and BpTreeMap) to speed up the processing of Select and Join. Indices must be        integrated and used in the Table class. For a bonus of up to (+10) provide the option of storing the tuples in a FileList as    well as in an ArrayList.
 
 ## How to run
 Compile this program using sbt (simple build tool). While in the project directory, do the follow:
