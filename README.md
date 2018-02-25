@@ -9,7 +9,7 @@ I have worked exclusively on join operation and indexing on Linear Hashmap data 
 
 ## How to run
 Compile this program using sbt (simple build tool). While in the project directory, do the follow:
-     - sbt clean
+           - sbt clean
 	   - sbt compile run
 	    
 You will be prompted to select a main function. 
